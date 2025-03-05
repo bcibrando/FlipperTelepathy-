@@ -14,8 +14,8 @@ let currentFocusScore = 0;
 async function loginToNeurosity() {
     try {
         await notion.login({
-            email: "brandonearlywine@aim.com",
-            password: "ManJack5740"
+            email: "EMAIL",
+            password: "PASSWORD"
         });
         console.log("Logged in to Neurosity");
     } catch (error) {
